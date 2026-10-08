@@ -2,8 +2,8 @@
 
 This repository contains versioned data exports produced by the CarboCurator LLM text-mining pipeline. Each release consists of a [BiomarkerKB-conformant](https://wiki.biomarkerkb.org/Data_Submission/Data_Upload) TSV file with a companion release record describing its controlled-vocabulary versions.
 
-[!IMPORTANT]
-Make sure you are using the correct version of the [bGSL resource](https://github.com/clinical-biomarkers/bGSL-data) when processing this data.
+> [!IMPORTANT]
+> Make sure you are using the **correct version** of the [bGSL resource](https://github.com/clinical-biomarkers/bGSL-data) when processing this data.
 
 ## Repository contents
 
