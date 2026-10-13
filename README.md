@@ -9,10 +9,21 @@ This repository contains versioned data exports produced by the CarboCurator LLM
 
 ```text
 releases/
+	current -> 2026-10-08/
 	YYYY-MM-DD/
 		biomarkers_llm_glycan_YYYY-MM-DD.tsv
 		RELEASE.md
 ```
+
+<details>
+	<summary>Info on symbolic links</summary>
+	`releases/current` is a relative symbolic link to the newest dated release. Update this link when adding a new release. Its target is relative to `releases/`, so it works wherever the
+	repository is cloned.
+
+    For Windows repository maintainers:
+    On Windows, creating symbolic links requires OS support and permission, and Git must have `core.symlinks=true`. If symlinks are unavailable or [`core.symlinks` is false](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks), Git will check out `current` as a plain file containing the release name.
+
+</details>
 
 ## Data format
 
